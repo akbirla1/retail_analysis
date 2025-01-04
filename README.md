@@ -15,9 +15,21 @@ The project applies data analysis to uncover actionable insights.
 - MySQL Workbench
 
 ## Data Sources
-- **Retail customer profile Dataset**: Provided by Coding Ninjas. The dataset is available [click here](https://github.com/akbirla1/retail_analysis/blob/main/data/customer_profiles-1-1714027410.csv)
-- **Retail products Dataset**: Provided by Coding Ninjas. The dataset is available [click here](https://github.com/akbirla1/retail_analysis/blob/main/data/product_inventory-1-1714027438.csv)
-- **Retail sales Dataset**: Provided by Coding Ninjas. The dataset is available [click here](https://github.com/akbirla1/retail_analysis/blob/main/data/sales_transaction-1714027462.csv)
+- **Retail customer profile Dataset**: Provided by Coding Ninjas. The dataset is available [click here](https://github.com/akbirla1/retail_analysis/blob/main/data/sql_p_retail_customer_profiles.sql)
+- **Retail products Dataset**: Provided by Coding Ninjas. The dataset is available [click here](https://github.com/akbirla1/retail_analysis/blob/main/data/sql_p_retail_product_inventory.sql)
+- **Retail sales Dataset**: Provided by Coding Ninjas. The dataset is available [click here](https://github.com/akbirla1/retail_analysis/blob/main/data/sql_p_retail_sales_transaction.sql)
 
+## Installation Instructions
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/akbirla1/retail_analysis
+   
+2. Create a new database in Mysql:
+CREATE DATABASE retail_analysis;
+
+3.Import the SQL files into Mysql:
+mysql -u username -p retail_analysis < data/sql_p_retail_customer_profiles.sql
+mysql -u username -p retail_analysis < data/sql_p_retail_product_inventory.sql
+mysql -u username -p retail_analysis < data/sql_p_retail_sales_transaction.sql
 
